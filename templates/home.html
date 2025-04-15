@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Главная | Мир котиков{% endblock %}
+
+{% block content %}
+    <h1>Добро пожаловать в мир котиков!</h1>
+    <img src="{{ url_for('static', filename='images/cat.jpg') }}" alt="Милый котик">
+    <p>Здесь вы найдете много интересного о наших пушистых друзьях.</p>
+{% endblock %}
